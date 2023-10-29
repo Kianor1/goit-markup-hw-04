@@ -136,6 +136,7 @@ img {
 .logo-header {
   margin-right: 76px;
   padding: 24px 0;
+  display: block;
 }
 
 .nav-list {
@@ -148,6 +149,7 @@ img {
 }
 
 .nav-item {
+  display: block;
   color: var(--nv);
   font-size: 16px;
   font-weight: 500;
