@@ -583,8 +583,8 @@ img {
   overflow: hidden;
 }
 
-.overlay-box:hover .overlay-discr,
-.overlay-box:focus .overlay-discr {
+.services-item:hover .overlay-discr,
+.services-item:focus .overlay-discr {
   transform: translateY(0);
 }
 
