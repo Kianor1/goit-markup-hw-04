@@ -437,7 +437,7 @@ img {
   border-color: var(--ocean);
 }
 
-.customers-list-link svg {
+.customers-list-link > svg {
   width: 104px;
   height: 56px;
 }
