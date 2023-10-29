@@ -194,6 +194,7 @@ img {
 }
 
 .contact-list-item {
+  display: block;
   padding: 24px 0;
 }
 
