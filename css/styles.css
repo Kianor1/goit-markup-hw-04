@@ -375,7 +375,6 @@ img {
   justify-content: center;
   gap: 24px;
   padding-top: 8px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ot-social-item {
@@ -391,6 +390,7 @@ img {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ot-social-link:hover,
