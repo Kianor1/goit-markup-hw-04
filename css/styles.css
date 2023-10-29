@@ -233,7 +233,6 @@ img {
     ),
     url(../images/studio/people-office.jpg);
   background-repeat: no-repeat;
-
   background-size: cover;
   background-position: center;
   max-width: 1440px;
@@ -291,6 +290,22 @@ img {
 .advantages-list-item {
   gap: 24px;
   width: calc((100% - 3 * 24px) / 4);
+}
+
+.advantages-svg {
+  display: flex;
+  width: 264px;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: var(--cloud);
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.advantages-svg-item {
+  display: flex;
+  /* padding: 0 100px; */
 }
 
 .advantages-item-title {
