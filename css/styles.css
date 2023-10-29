@@ -434,6 +434,12 @@ img {
   color: var(--ocean);
   border-color: var(--ocean);
 }
+
+.customers-icon {
+  width: 104px;
+  height: 56px;
+  fill: currentColor;
+}
 /* ====/Customers==== */
 /* ======/STUDIO====== */
 /* ======PORTFOLIO====== */
