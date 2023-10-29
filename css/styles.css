@@ -437,11 +437,6 @@ img {
   border-color: var(--ocean);
 }
 
-.customers-list-link > svg {
-  width: 104px;
-  height: 56px;
-}
-
 .customers-icon {
   fill: currentColor;
 }
