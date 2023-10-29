@@ -428,6 +428,12 @@ img {
   border: 1px solid var(--light-slt);
   border-radius: 4px;
 }
+
+.customers-list-link:focus,
+.customers-list-link:hover {
+  color: var(--ocean);
+  border-color: var(--ocean);
+}
 /* ====/Customers==== */
 /* ======/STUDIO====== */
 /* ======PORTFOLIO====== */
