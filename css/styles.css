@@ -303,11 +303,6 @@ img {
   margin-bottom: 8px;
 }
 
-.advantages-svg-item {
-  display: flex;
-  /* padding: 0 100px; */
-}
-
 .advantages-item-title {
   color: var(--nv);
   font-size: 20px;
@@ -358,6 +353,8 @@ img {
   background-color: var(--wht);
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .ot-item-name {
@@ -371,6 +368,30 @@ img {
 
 .ot-list-discr {
   text-align: center;
+}
+
+.ot-social-item {
+  width: 40px;
+  height: 40px;
+}
+
+.ot-social-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: var(--iris);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.ot-social-link:hover,
+.ot-social-link:focus {
+  background-color: var(--ocean);
+}
+
+.ot-social-icon {
+  fill: var(--cloud);
 }
 /* ======/STUDIO====== */
 /* ======PORTFOLIO====== */
